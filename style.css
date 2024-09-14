@@ -6,17 +6,16 @@
 }
 
 body {
-  background-color: #fefefe;
+  background-color: #000; /* Set the background color to black */
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  color: #333;
+  color: #fff; /* Change the text color to white for contrast */
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .container {
