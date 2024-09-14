@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A special website to ask you out!">
-  <title>Would you like to be my girlfriend?</title>
+  <title>Will You Be My Girlfriend?</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>Would you like to be my girlfriend?</h1>
+      <h1>Will You Be My Girlfriend?</h1>
     </div>
 
     <div class="bouquet-container">
@@ -19,12 +22,12 @@
 
     <div class="message">
       You mean the world to me, and I wanted to ask you in a special way.<br>
-      <span>Would you like to be my girlfriend?</span>
+      <span>Will you be my girlfriend?</span>
     </div>
 
     <div class="buttons">
-      <button class="button" onclick="yesResponse()">Yes!</button>
-      <button class="button" onclick="maybeResponse()">Maybe...</button>
+      <button class="button yes" onclick="yesResponse()">Yes!</button>
+      <button class="button maybe" onclick="maybeResponse()">Maybe...</button>
     </div>
 
     <div class="response-message" id="response-message"></div>
@@ -33,7 +36,6 @@
     <audio autoplay loop>
       <source src="romantic_song.mp3" type="audio/mpeg">
     </audio>
-
   </div>
 
   <script src="script.js"></script>
