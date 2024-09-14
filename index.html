@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A special website to ask you out!">
+  <title>Would you like to be my girlfriend?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Would you like to be my girlfriend?</h1>
+    </div>
+
+    <div class="bouquet-container">
+      <img src="bouquet.svg" alt="Bouquet" class="bouquet">
+    </div>
+
+    <div class="message">
+      You mean the world to me, and I wanted to ask you in a special way.<br>
+      <span>Would you like to be my girlfriend?</span>
+    </div>
+
+    <div class="buttons">
+      <button class="button" onclick="yesResponse()">Yes!</button>
+      <button class="button" onclick="maybeResponse()">Maybe...</button>
+    </div>
+
+    <div class="response-message" id="response-message"></div>
+
+    <!-- Background music (optional) -->
+    <audio autoplay loop>
+      <source src="romantic_song.mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
